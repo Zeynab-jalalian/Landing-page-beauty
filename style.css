@@ -6,9 +6,7 @@
 body{
     width: 100%;
     height: 100vh;
-    background: url('bg.jpg') no-repeat;
-    background-position:  center;
-    background-size: cover;
+   overflow: hidden;
 }
 a{
     text-decoration: none;
@@ -94,4 +92,23 @@ ul{
     border: 1px solid #474747;
     padding: 9px 11px;
  }
- 
+ .main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('bg.jpg') no-repeat;
+    background-position:  center;
+    background-size: cover;
+ }
+ .main div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.main div img{
+    border-radius: 20px;
+}
