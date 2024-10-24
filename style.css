@@ -315,7 +315,7 @@ ul {
         cursor: pointer;
         margin-left: 20px;
     }
-    label #bars:checked .menu ul{
+    #check:checked~ .menu ul{
         left: 0;
     }
 }
