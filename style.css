@@ -314,8 +314,22 @@ ul {
         color: #ff008c;
         cursor: pointer;
         margin-left: 20px;
+        transition: 0.3s;
+    }
+    label #xmark{
+        display: none;
+        font-size: 35px;
+        color: #ff008c;
+        cursor: pointer;
+        margin-left: 20px;
+        transition: 0.3s;
     }
     #check:checked~ .menu ul{
         left: 0;
+    }
+    #check:checked~ label #xmark{
+       display: block;
+       position: absolute;
+       z-index: 10;
     }
 }
